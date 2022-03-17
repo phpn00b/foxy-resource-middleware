@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxyResourceMiddleware.ExampleApp", "example\FoxyResourceMiddleware.ExampleApp\FoxyResourceMiddleware.ExampleApp.csproj", "{833C3DE4-6F23-46D1-9EE2-9127A92C7516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxyResourceMiddleware", "src\FoxyResourceMiddleware\FoxyResourceMiddleware.csproj", "{297933A7-C7FA-4ED4-BE04-C091300B3D90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxyResourceMiddleware.Tests", "tests\FoxyResourceMiddleware.Tests\FoxyResourceMiddleware.Tests.csproj", "{34828B81-571C-419C-84F3-C517F228798A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{833C3DE4-6F23-46D1-9EE2-9127A92C7516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833C3DE4-6F23-46D1-9EE2-9127A92C7516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833C3DE4-6F23-46D1-9EE2-9127A92C7516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833C3DE4-6F23-46D1-9EE2-9127A92C7516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{297933A7-C7FA-4ED4-BE04-C091300B3D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297933A7-C7FA-4ED4-BE04-C091300B3D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297933A7-C7FA-4ED4-BE04-C091300B3D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297933A7-C7FA-4ED4-BE04-C091300B3D90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34828B81-571C-419C-84F3-C517F228798A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34828B81-571C-419C-84F3-C517F228798A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34828B81-571C-419C-84F3-C517F228798A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34828B81-571C-419C-84F3-C517F228798A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
